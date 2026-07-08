@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Profile Page</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#1e3c72,#2a5298);
+    color:white;
+    padding:30px;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    background:white;
+    color:#333;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+h1{
+    text-align:center;
+    color:#1e3c72;
+    margin-bottom:20px;
+}
+
+h2{
+    color:#2a5298;
+    margin-top:25px;
+    margin-bottom:10px;
+    border-left:5px solid #1e3c72;
+    padding-left:10px;
+}
+
+.profile{
+    text-align:center;
+}
+
+.profile img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:5px solid #1e3c72;
+    margin-top:15px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+}
+
+table th{
+    background:#1e3c72;
+    color:white;
+    padding:12px;
+}
+
+table td{
+    padding:10px;
+    border:1px solid #ddd;
+    text-align:center;
+}
+
+table tr:nth-child(even){
+    background:#f2f2f2;
+}
+
+ul{
+    margin-left:20px;
+}
+
+ul li{
+    margin:8px 0;
+}
+
+a{
+    color:#1e3c72;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+a:hover{
+    color:#ff6600;
+}
+
+input, textarea{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+input[type="submit"]{
+    background:#1e3c72;
+    color:white;
+    border:none;
+    cursor:pointer;
+    font-size:16px;
+}
+
+input[type="submit"]:hover{
+    background:#ff6600;
+}
+
+hr{
+    margin:25px 0;
+    border:none;
+    border-top:2px solid #ddd;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>Ayush</h1>
+
+<div class="profile">
+    <p><strong>College:</strong> Swami Keshvanand Institute of Technology (SKIT), Jaipur</p>
+
+    <p><strong>Branch:</strong> Computer Science and Engineering (Data Science)</p>
+
+    <img src="profile.jpg" alt="Ayush Photo">
+</div>
+
+<hr>
+
+<h2>Education</h2>
+
+<table>
+<tr>
+    <th>Degree</th>
+    <th>Institution</th>
+    <th>Year</th>
+    <th>Percentage / CGPA</th>
+</tr>
+
+<tr>
+    <td>10th</td>
+    <td>ABC Senior Secondary School</td>
+    <td>2022</td>
+    <td>88%</td>
+</tr>
+
+<tr>
+    <td>12th</td>
+    <td>XYZ Senior Secondary School</td>
+    <td>2024</td>
+    <td>84%</td>
+</tr>
+
+<tr>
+    <td>B.Tech (CSE-DS)</td>
+    <td>SKIT Jaipur</td>
+    <td>2025 - Present</td>
+    <td>Currently Studying</td>
+</tr>
+
+</table>
+
+<hr>
+
+<h2>Skills</h2>
+
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>C Programming</li>
+    <li>C++</li>
+    <li>Python</li>
+    <li>Communication</li>
+    <li>Teamwork</li>
+</ul>
+
+<hr>
+
+<h2>Favourite Website</h2>
+
+<a href="https://www.youtube.com" target="_blank">Visit YouTube</a>
+
+<hr>
+
+<h2>Contact Form</h2>
+
+<form>
+
+<label>Name</label>
+<input type="text" placeholder="Enter your name">
+
+<label>Email</label>
+<input type="email" placeholder="Enter your email">
+
+<label>Message</label>
+<textarea rows="5" placeholder="Write your message"></textarea>
+
+<input type="submit" value="Submit">
+
+</form>
+
+</div>
+
+</body>
+</html>
